@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Parkwise Smart Parking Management (CCE5)
 
 A MongoDB-backed parking management web application built with Flask, PyMongo, Bootstrap and Chart.js. All dashboard figures and tables are queried from MongoDB. The API validates inputs and checks booking time overlaps server-side.
@@ -45,3 +46,7 @@ Connect Compass to `mongodb://127.0.0.1:27017/`, open `smart_parking_db`, and in
 The occupied/available dashboard counts use live booking records in confirmed/active state. Slot status is an administrative availability flag: a slot with status `Occupied` or `Maintenance` is not offered for new bookings. Edit forms are available for vehicle and slot details; booking lifecycle transitions are exposed in the history table.
 
 See `docs/test_cases.md` for test procedures. Database-backed verification requires a running MongoDB server.
+=======
+# smart-traffic-management
+smart traffic management using mongodb CRUD operation ,indexes and aggregation
+>>>>>>> 45bc5d9dd72bd9d0cf49eaa2de605db175ad20e3
